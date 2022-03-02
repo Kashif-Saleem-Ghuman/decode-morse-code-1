@@ -33,3 +33,13 @@ A basic understanding of Ruby and Git
 - GitHub: [@oliverSCZ](https://github.com/oliverSCZ)
 - Twitter: [@olivercoimbra](https://twitter.com/olivercoimbra)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/olivercoimbra)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/rtonata88/decode-morse-code/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!

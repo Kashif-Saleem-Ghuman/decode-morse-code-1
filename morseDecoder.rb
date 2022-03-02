@@ -33,11 +33,19 @@ def get_letter(letter)
 end
 
 def decode_word(word)
-    @words = word.split
+    @letters = word.split
     @current_word = ''
-    @words.each do |letter| get_letter(letter)
+    @letters.each do |letter| get_letter(letter)
         @current_word += get_letter(letter)
     end
     print @current_word + ' '
-    return @current_word
 end
+
+def decode_message(message)
+    @words = message.split("   ")
+    @newMessage = ''
+    @words.each do |word| decode_word(word)
+    end
+end
+
+decode_message('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')

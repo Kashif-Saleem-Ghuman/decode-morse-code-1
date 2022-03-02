@@ -1,4 +1,4 @@
-$dictionary = {
+@dictionary = {
   '.-' => 'A',
   '-...' => 'B',
   '-.-.' => 'C',
@@ -28,7 +28,7 @@ $dictionary = {
 }
 
 def get_letter(letter)
-  @current_letter = $dictionary[letter]
+  @current_letter = @dictionary[letter]
   @current_letter
 end
 
@@ -44,7 +44,6 @@ end
 
 def decode_message(message)
   @words = message.split('   ')
-  @newMessage = ''
   @words.each do |word|
     decode_word(word)
   end
